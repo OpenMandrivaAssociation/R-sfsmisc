@@ -11,9 +11,10 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-19.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-stats R-methods R-utils R-datasets R-MASS R-tcltk
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-stats R-methods R-utils R-datasets R-MASS R-tcltk
+Requires:         R-stats R-methods R-utils 
+Requires:         R-datasets R-MASS R-tcltk 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-methods R-utils
+BuildRequires:   R-datasets R-MASS R-tcltk 
 
 %description
 Useful utilities ['goodies'] from Seminar fuer Statistik ETH Zurich, quite
@@ -50,3 +51,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/demo
 %{rlibdir}/%{packname}/help
+
+
+%changelog
+* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0_19-1
++ Revision: 776201
+- Import R-sfsmisc
+- Import R-sfsmisc
+
