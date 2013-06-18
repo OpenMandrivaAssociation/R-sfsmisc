@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.0_19
-Release:          1
+Release:          2
 Summary:          Utilities from Seminar fuer Statistik ETH Zurich
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
