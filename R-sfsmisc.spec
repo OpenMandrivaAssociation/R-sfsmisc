@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          1.0.24
+Version:          1.0.25
 Release:          1
 Summary:          Utilities from Seminar fuer Statistik ETH Zurich
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/sfsmisc_1.0-24.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/sfsmisc_1.0-25.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-stats R-methods R-utils 
@@ -58,5 +58,6 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 776201
 - Import R-sfsmisc
 - Import R-sfsmisc
+
 
 
